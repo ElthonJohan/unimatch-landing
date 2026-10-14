@@ -1,0 +1,16 @@
+/* ============ Ticker ============ */
+.ticker{border-block:1.5px solid var(--line);padding:20px 0;overflow:hidden;display:grid;gap:12px}
+.tk-row{display:flex;width:max-content}
+.tk-set{display:flex;gap:12px;padding-right:12px}
+.tk-row.l{animation:tkL 55s linear infinite}
+.tk-row.r{animation:tkR 62s linear infinite}
+.tk-row:hover{animation-play-state:paused}
+@keyframes tkL{to{transform:translateX(-50%)}}
+@keyframes tkR{from{transform:translateX(-50%)}to{transform:none}}
+.tk{flex:none;padding:10px 20px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);font:600 14.5px/1 'Inter',sans-serif;white-space:nowrap}
+.tk:nth-child(5n+1){background:var(--primary);color:var(--on-primary);border-color:var(--primary)}
+.tk:nth-child(5n+3){background:var(--amber-soft);border-color:transparent}
+.tk:nth-child(5n+4){background:var(--teal-soft);border-color:transparent}
+@media (prefers-reduced-motion:reduce){
+  .tk-row{animation:none;width:auto;flex-wrap:wrap}.tk-set[aria-hidden="true"]{display:none}.tk-set{flex-wrap:wrap;padding:0 24px}
+}

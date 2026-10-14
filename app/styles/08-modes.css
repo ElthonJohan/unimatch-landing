@@ -1,0 +1,24 @@
+/* ============ Modes ============ */
+.modes-head{max-width:780px}
+.modes-head .lead{margin-top:22px}
+.modes{margin-top:56px;border-top:1.5px solid var(--text)}
+.mode{border-bottom:1.5px solid var(--line)}
+.mode h3{font:inherit;letter-spacing:inherit}
+.mode-b{width:100%;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:30px 0;background:none;border:0;cursor:pointer;text-align:left;font:800 clamp(2.1rem,5.4vw,4rem)/1 'Manrope',sans-serif;letter-spacing:-.04em;color:var(--text);transition:color .3s}
+.mode-b:hover{color:var(--amber-text)}
+.pm{width:46px;height:46px;border-radius:50%;border:1.5px solid currentColor;position:relative;flex:none;transition:transform .55s var(--ease),background .3s,border-color .3s,color .3s}
+.pm::before,.pm::after{content:'';position:absolute;left:50%;top:50%;width:16px;height:2px;background:currentColor;border-radius:2px;transform:translate(-50%,-50%);transition:transform .55s var(--ease)}
+.pm::after{transform:translate(-50%,-50%) rotate(90deg)}
+.mode.open .pm{transform:rotate(180deg);background:var(--amber);border-color:var(--amber);color:#23262B}
+.mode.open .pm::after{transform:translate(-50%,-50%) rotate(0deg)}
+.mode-p{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s var(--ease)}
+.mode.open .mode-p{grid-template-rows:1fr}
+.mode-p>div{overflow:hidden}
+.mode-in{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;padding:2px 0 44px;align-items:start}
+.mode-in p{color:var(--text-2);max-width:48ch;font-size:1.05rem}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.pill{padding:8px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);font:600 14px/1.2 'Inter',sans-serif}
+.ex{border:1.5px solid var(--line);border-radius:22px;padding:20px;background:var(--surface);display:grid;gap:10px}
+.ex b{font:700 1.05rem/1.2 'Manrope',sans-serif;letter-spacing:-.01em}
+.ex-r{display:flex;align-items:center;gap:9px;color:var(--text-2);font-size:14px}
+.ex-r .i{font-size:16px;color:var(--amber-text)}

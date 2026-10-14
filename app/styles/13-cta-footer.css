@@ -1,0 +1,13 @@
+/* ============ Final CTA + footer ============ */
+.cta{background:var(--amber);color:#23262B;text-align:left}
+.cta h2{font-size:clamp(2.2rem,6vw,4.6rem);line-height:1.02;letter-spacing:-.04em;max-width:15ch}
+.cta .hero-cta{margin-top:40px}
+.cta p{margin-top:22px;font-size:1.12rem;max-width:46ch}
+.foot{padding:64px 0 40px;border-top:1.5px solid var(--line)}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot p{color:var(--text-2);font-size:15px;max-width:34ch;margin-top:14px}
+.foot h4{font:700 14px 'Inter',sans-serif;margin-bottom:12px}
+.foot ul{list-style:none;display:grid;gap:8px}
+.foot li a,.foot li button{color:var(--text-2);text-decoration:none;font-size:15px;background:none;border:0;cursor:pointer;padding:0;text-align:left;transition:color .2s}
+.foot li a:hover,.foot li button:hover{color:var(--amber-text)}
+.foot-bot{margin-top:48px;padding-top:24px;border-top:1.5px solid var(--line);display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;font-size:13.5px;color:var(--text-2)}

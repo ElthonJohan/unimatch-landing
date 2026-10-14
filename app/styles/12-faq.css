@@ -1,0 +1,16 @@
+/* ============ FAQ ============ */
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:start}
+.faq-grid>div:first-child{position:sticky;top:calc(var(--nav-h) + 32px)}
+.faq{border-top:1.5px solid var(--text)}
+.faq-i{border-bottom:1.5px solid var(--line)}
+.faq-i h3{font:inherit;letter-spacing:inherit}
+.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0;background:none;border:0;cursor:pointer;text-align:left;font:700 1.15rem/1.3 'Manrope',sans-serif;letter-spacing:-.015em;color:var(--text);transition:color .25s}
+.faq-q:hover{color:var(--amber-text)}
+.faq-q .pm{width:36px;height:36px}
+.faq-q .pm::before,.faq-q .pm::after{width:13px}
+.faq-i.open .pm{transform:rotate(180deg);background:var(--amber);border-color:var(--amber);color:#23262B}
+.faq-i.open .pm::after{transform:translate(-50%,-50%) rotate(0deg)}
+.faq-a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .5s var(--ease)}
+.faq-i.open .faq-a{grid-template-rows:1fr}
+.faq-a>div{overflow:hidden}
+.faq-a p{padding:0 56px 26px 0;color:var(--text-2);max-width:60ch}

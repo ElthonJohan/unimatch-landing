@@ -1,0 +1,14 @@
+/* ============ Buttons (pill) ============ */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:.6em;height:54px;padding:0 30px;border-radius:999px;font:700 15px/1 'Inter',sans-serif;border:1.5px solid transparent;cursor:pointer;text-decoration:none;overflow:hidden;isolation:isolate;transition:color .35s var(--ease),border-color .35s var(--ease),transform .25s var(--ease)}
+.btn::before{content:'';position:absolute;inset:0;background:var(--amber);transform:translateY(101%);transition:transform .5s var(--ease);z-index:-1;border-radius:inherit}
+.btn:hover::before,.btn:focus-visible::before{transform:none}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--primary);color:var(--on-primary)}
+.btn-primary:hover,.btn-primary:focus-visible{color:#23262B}
+.btn-ghost{background:transparent;color:var(--text);border-color:var(--text)}
+.btn-ghost:hover,.btn-ghost:focus-visible{color:#23262B;border-color:var(--amber)}
+.btn-sm{height:44px;padding:0 22px;font-size:14px}
+.btn-light{background:var(--on-ink);color:#23262B}
+.on-amber .btn::before{background:#F7F6F3}
+.on-amber .btn-primary:hover,.on-amber .btn-primary:focus-visible{color:#23262B}
+.on-amber .btn-ghost{color:#23262B;border-color:#23262B}

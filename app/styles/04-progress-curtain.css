@@ -1,0 +1,7 @@
+/* ============ Scroll progress + curtain ============ */
+.progress{position:fixed;top:0;left:0;right:0;height:3px;background:var(--amber);transform-origin:left;transform:scaleX(var(--sp));z-index:90;pointer-events:none}
+.curtain{position:fixed;inset:0;z-index:100;background:var(--ink);display:grid;place-items:center;transform:translateY(100%);pointer-events:none;--iso-navy:#7C8FE0;--iso-line:#5A6068}
+.curtain svg{width:84px;height:84px;transform:scale(.55) rotate(-12deg);opacity:0;transition:transform .6s .12s var(--ease),opacity .3s .12s}
+.curtain.cover{transform:none;transition:transform .5s var(--ease-io);pointer-events:auto}
+.curtain.cover svg{transform:none;opacity:1}
+.curtain.cover.leave{transform:translateY(-100%);transition:transform .55s var(--ease-io)}
