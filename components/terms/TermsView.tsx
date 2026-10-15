@@ -187,7 +187,7 @@ export function TermsView() {
           <TSec n={1} toc="Aceptación" title="Aceptación de los términos">
             <p>Estos Términos y Condiciones (los «Términos») regulan el acceso y el uso de UniMatch (la «App»), una plataforma que ayuda a estudiantes universitarios a conectar con otras personas con intereses en común para estudiar, desarrollar proyectos, asistir a eventos, practicar deportes, participar en clubes, hacer networking y colaborar en actividades universitarias.</p>
             <p>Al crear una cuenta, iniciar sesión o usar la App, declaras que leíste estos Términos y que los aceptas. Si no estás de acuerdo con alguno de ellos, no uses la App.</p>
-            <p>La App es ofrecida por <Ph>[nombre o razón social del titular de UniMatch]</Ph> (el «Titular» o «nosotros»).</p>
+            <p>La App es ofrecida por UniMatch center.</p>
           </TSec>
 
           <TSec n={2} toc="Definiciones" title="Definiciones">
@@ -280,7 +280,7 @@ export function TermsView() {
 
           <TSec n={10} toc="Privacidad y datos" title="Privacidad y datos personales">
             <p>Tratamos tus datos personales conforme a nuestra Política de Privacidad y a la Ley N.º 29733, Ley de Protección de Datos Personales del Perú, y su reglamento.</p>
-            <p>Parte de tu Perfil (como tu nombre, sede, carrera, año académico, fotos, intereses y disponibilidad) es visible para otros usuarios según las funciones de la App. Puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición escribiéndonos a <Ph>[correo de contacto]</Ph>.</p>
+            <p>Parte de tu Perfil (como tu nombre, sede, carrera, año académico, fotos, intereses y disponibilidad) es visible para otros usuarios según las funciones de la App. Puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición escribiéndonos a unimatch@app.com.</p>
           </TSec>
 
           <TSec n={11} toc="Propiedad intelectual" title="Propiedad intelectual">
@@ -289,7 +289,7 @@ export function TermsView() {
 
           <TSec n={12} toc="Reportes y moderación" title="Reportes, moderación y suspensión">
             <p>Puedes reportar o bloquear a otros usuarios y contenidos que incumplan estos Términos. Podemos revisar los reportes, retirar contenido, advertir, suspender o cerrar cuentas, con o sin aviso previo según la gravedad de la falta, y colaborar con las autoridades cuando la ley lo exija.</p>
-            <p>Si crees que una medida fue un error, escríbenos a <Ph>[correo de contacto]</Ph> y la revisaremos.</p>
+            <p>Si crees que una medida fue un error, escríbenos a unimatch@app.com y la revisaremos.</p>
           </TSec>
 
           <TSec n={13} toc="Disponibilidad" title="Disponibilidad del servicio">
@@ -318,12 +318,12 @@ export function TermsView() {
           </TSec>
 
           <TSec n={17} toc="Ley aplicable" title="Ley aplicable y controversias">
-            <p>Estos Términos se rigen por las leyes de la República del Perú. Si surge una diferencia, intentaremos resolverla de forma amistosa; escríbenos primero a <Ph>[correo de contacto]</Ph>.</p>
+            <p>Estos Términos se rigen por las leyes de la República del Perú. Si surge una diferencia, intentaremos resolverla de forma amistosa; escríbenos primero a unimatch@app.com.</p>
             <p>De no lograrlo, se someterá a los jueces y tribunales de <Ph>[Cajamarca, Perú]</Ph>, sin perjuicio de tu derecho a acudir ante el Indecopi u otras autoridades competentes cuando corresponda.</p>
           </TSec>
 
           <TSec n={18} toc="Contacto" title="Contacto">
-            <p>Para consultas sobre estos Términos, reportes o el ejercicio de tus derechos sobre tus datos personales, escríbenos a <Ph>[correo de contacto]</Ph>.</p>
+            <p>Para consultas sobre estos Términos, reportes o el ejercicio de tus derechos sobre tus datos personales, escríbenos a unimatch@app.com.</p>
           </TSec>
 
           <div className="t-end">
